@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-[#002339] flex pt-40 ">
+    <div class="ml-20 p-6 w-[80%] md:w-[40%] container ">
+        <div class="text-4xl heading">
+            <div class="mb-2 text-white ">Generate a</div>
+            <div class=" mb-6 text-[#019f55] underline underline-offset-8">Random Password</div>
+        </div>
+        
+        <div class="flex mb-4 rounded-md ">
+            <input type="text" placeholder="password" readonly class="p-4 w-full outline-none rounded-md bg-white password"  >
+            <img src="./images/copy2-removebg-preview.png" class="h-[40px]  ml-[-45px] copy pt-4 cursor-pointer" alt="">      
+        </div>
+
+        <div class="flex bg-[#019f55] p-2 py-4 text-[#fff] space-x-2 w-fit rounded-md btn cursor-pointer hover:bg-green-600">
+            <img src="./images/l3-removebg-preview.png"  class="h-[30px] electric" alt="">
+            <div class="text-xl">Generate Password</div>
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
